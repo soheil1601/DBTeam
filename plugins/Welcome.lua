@@ -151,14 +151,14 @@ return {
       "^!!tgservice (chat_add_user)$",
 	   "^!!tgservice (chat_del_user)$",
       "^!!tgservice (chat_add_user_link)$",
-      "^#(setwelcome) (.*)",
-      "^#(getwelcome)",
-      "^#(setbye) (.*)",
-      "^#(getbye)",
-      "^#(welcome on)",
-      "^#(welcome off)",
-      "^#(bye on)",
-      "^#(bye off)"
+      "^[!/#](setwelcome) (.*)",
+      "^[!/#](getwelcome)",
+      "^[!/#](setbye) (.*)",
+      "^[!/#](getbye)",
+      "^[!/#](welcome on)",
+      "^[!/#](welcome off)",
+      "^[!/#](bye on)",
+      "^[!/#](bye off)"
    },
    run = run
 }
