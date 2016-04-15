@@ -17,7 +17,7 @@ return {
   description = "", 
   usage = "",
   patterns = {
-    "^[!/]git (.*)",
+    "^[!/#]git (.*)",
   },
   run = run
 }
